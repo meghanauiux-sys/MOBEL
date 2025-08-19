@@ -1,0 +1,442 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("css-reset.css"); 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+#wrapper{
+    background-color: #FFFFFF;
+    color: #FFCCCC;
+    font-size: 16px;
+    width: 1275px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#head{
+    background-color: #311F20;
+    width: 1275px;
+    height: 40px;
+    margin: 20px 0px 0px;
+}
+
+#headerSection{
+    width: 1275px;
+    height: 120px;
+    background-color: #FFFFFF;
+}
+
+#logonavSection{
+    background-color: #FFFFFF;
+    width: 242px;
+    height: 120px;
+    float: left;
+    margin-left: 10px;
+}
+
+#logonavSection img{
+    width: 242px;
+    height: 120px;
+}
+
+.navigationSection{
+    width: 1275px;
+     height: 120px;
+    background-color: #FFFFFF;
+}
+
+#navigationMenu .menu{
+    float: left;
+}
+
+#navigationMenu .menu li{
+    float: left;
+    margin-right: 50px;
+}
+
+#navigationMenu .menu{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 26px;
+    margin-left: 15px;
+    margin-top: 40px;    
+}
+
+#navigationMenu .menu li{
+    list-style: none;
+}
+
+#navigationMenu .menu li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.navButton{
+    width: 297px;
+    height: 120px;
+    float: right;
+    background-color: #FFFFFF;
+}
+
+.navButton button{
+    background-color: #1F1A03;
+    color: #FCFCFC;
+    padding: 5px 15px;
+    margin-top: 35px;
+    font-size: 26px;
+    border: none;
+    border-radius: 20px;
+}
+
+#bannerSection{
+    clear: both;
+    width: 1275px;
+    height: 1595px;
+    background-color: #A7A3A3;
+    position: relative;
+}
+
+#banner{
+    width: 1275px;
+    height: 1595px;
+    background-color: aqua;
+}
+
+#banner .bannerImage{
+    width: 100%;
+    height: 1595px;
+}
+
+.bannerImage .headerButton{
+    width: 279px;
+    height: 120px;
+    align-content: center;
+    background-color: #E8585A;
+}
+
+.headerButton button{
+    background-color: #B1A091;
+    color: #000000;
+    padding: 10px 45px;
+    font-size: 26px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 180px;
+    left: 490px;
+}
+#imageSection{
+    clear: both;
+    width: 1275px;
+    height: 780px;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.imagesecChair{
+    color: #FFFFFF;
+    width: 601px;
+    position: relative;
+    float: right;
+    padding: 40px 40px;
+}
+
+#imageSection .text{
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 550px;
+    float: left;
+    width: 635px;
+    position: absolute;
+}
+
+#imageSection h1{
+    font-weight: bold;
+    padding: 98px 123px;
+    font-size: 41px;
+}
+
+#imageSection p{
+    padding: 0px 123px;
+    font-size: 26px;
+}
+
+#imageSection .seemoreButton{
+    width: 279px;
+    height: 120px;
+    background-color: #FFFFFF; 
+}
+
+.seemoreButton button{
+    background-color: #4E3B2A;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    font-size: 26px;
+    border: none;
+    border-radius: 20px;
+    margin: 509px 457px;
+    position: absolute; 
+}
+
+#imageSection2{
+    clear: both;
+    width: 1275px;
+    height: 780px;
+    background-color: #FFFFFF;
+    float: right;
+    position: relative; 
+}
+
+.imagesecLamp{
+    color: #FFFFFF;
+    width: 601px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+
+#imageSection2 .text2{
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 654px;
+    float: right;
+    width: 540px;
+}
+
+#imageSection2 h1{
+    font-weight: bold;
+    padding: 111px 0px;
+    font-size: 41px;
+}
+
+#imageSection2 p{
+    padding: 0px 0px;
+    font-size: 26px;
+    display: inline;
+}
+
+#imageSection2 .seemoreButtom2{
+    width: 139px;
+    height: 32px;
+    background-color: #FFFFFF; 
+    position: absolute;
+    bottom: 126px;
+    margin-left: 244px; 
+}
+
+.seemoreButtom2 button{
+    background-color: #4E3B2A;
+    color: #FFFFFF;
+    padding: 5px 7px;
+    font-size: 26px;
+    border: none;
+    border-radius: 20px;
+}
+
+#bedroomSectionimg{
+    clear: both;
+    background-color: #FFFFFF;
+    height: 860px;
+    width: 1100px;
+    position: relative;
+    padding: 0px 80px 0px 80px;
+}
+
+#bedroomsecImg{
+    width: 1100px;
+    height: 100%;
+    background-color: aqua;
+}
+
+#bedroomsecImg .bedroomImage{
+    width: 100%;
+    height: 100%;
+}
+
+.clickbuttonwrapper{
+    width: 1100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#bedroomsecImg .clickButton{
+    width: 83px;
+    height: 20px;
+    font-size: 20px;
+    margin-right: 100px;
+    float: right;
+}
+
+#bedroomsecImg .clickButton a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#footer{
+    background-color: #FFFFFF;
+    width: 1275px;
+    height: 700px;
+}
+
+.companyListWrapper{
+    width: 1275px;
+    height: 470px;
+    background-color: #FFFFFF;
+}
+
+#footer .company{
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 450px;
+    height: 460px;
+    float: left;
+}
+
+.company h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding-top: 40px;
+}
+
+.company p{
+    color: #FFFFF;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.company h2{
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.company li{
+    list-style: none;
+    padding: 5px 0px;
+    margin-left: 30px;
+}
+
+.company li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+}
+
+#footer .links{
+    background-color: #FFFFF;
+    color: #000000;
+    width: 420px;
+    height: 460px;
+    float: left;
+}
+
+.links h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding-top: 40px;
+    margin-bottom: 43px
+}
+
+.links li{
+    list-style: none;
+    padding: 5px 0px;
+    margin-left: 30px;
+}
+
+.links li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+}
+
+#footer .link2{
+    background-color: #FFFFF;
+    color: #000000;
+    width: 390px;
+    height: 460px;
+    float: left;
+}
+
+.link2 h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding-top: 40px;
+    margin-bottom: 43px;
+}
+
+.link2 li{
+    list-style: none;
+    padding: 5px 0px;
+    margin-left: 30px;
+}
+
+.link2 li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+}
+
+.footerSocialWrapper{
+    width: 1275px;
+    height: 80px;
+    background-color: #FFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.socialmediaIcon{
+    width: 180px;
+    height: 65px;
+    background-color: #FFFFFF;
+    position: absolute;
+    align-self: center;
+}
+
+.socialmediaIcon li{ 
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    list-style: none;
+    background-color: #FFFFFF;
+}
+
+.socialmediaIcon li a{
+    width: 50px;
+    height: 50px;
+    background: url("images/icon.png")no-repeat;
+    display: block;
+}
+
+.socialmediaIcon li a.instagram{
+    background-position: 6px 6px;
+}
+
+.socialmediaIcon li a.facebook{
+    background-position: 6px -38px;
+}
+
+.socialmediaIcon li a.xso{
+    background-position: 6px -83px;
+}
+
+
+
+
+
+
+
+
+
+
